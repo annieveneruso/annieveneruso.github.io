@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head lang="en">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Annie Hoch-South | Digital Designer</title>
+
+		<meta name="author" content="Annie Hoch-South">
+		
+		<meta name="description" content="Annie Hoch-South is a Digital Designer who works to bring together visual and interface design with user needs. Multimedia Design, Frontend Development, Graphic Design.">
+
+		<link rel="canonical" href="http://anniehoch-south.com/">
+
+		<link rel="icon" href="img/favicon.png">
+        
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        
+	</head>
+	
+	<body class="caseStudy">
+		<div class="hamburger" id="toggle">
+			<span class="top"></span>
+			<span class="middle"></span>
+			<span class="bottom"></span>
+		</div>
+
+		<div class="overlay" id="overlay">
+	    	<nav class="mobileNav">
+	        	<ul class="firstSection">
+	          		<li><a href="index.html">Home</a></li>
+	          		<li><a href="therajourney.html">Therajourney</a></li>
+	          		<li><a href="podcastcompany.html">PNW Podcast Co.</a></li>
+	          		<li><a href="historicroutes.html">Historic Routes</a></li>
+	          		<li><a href="index.html#aboutCopy">About Me</a></li>
+	        	</ul>
+	       		<div class="secondSection">
+	        		<h2>Annie Hoch-South</h2>
+					<p>ahochsouth@gmail.com &#10072; <a href="https://www.linkedin.com/in/annie-hoch-south-04995114a/" target="_blank">LinkedIn</a> &#10072; <a href="img/Hoch-South_Resume.pdf" download="Hoch-South_Resume.pdf" target="_blank">Resume</a></p>
+	       		</div>
+	      	</nav>
+	      	<img src="img/icon-white.png" alt="Annie Hoch-South white icon with cursive initials flowing to print font">
+	    </div>
+
+	    <div class="headerBackground">
+	    	<nav id="navDesktop">
+				<div>
+					<ul>
+						<a href="#projectDetails"><li>Project Details</li></a>
+						<a href="#myRole"><li>My Role</li></a>
+						<a href="#projectSummary"><li>Project Summary</li></a>
+						<a href="#challenges"><li>Challenges</li></a>
+						<a href="#solutions"><li>Solutions</li></a>
+						<a href="#results"><li>Results</li></a>
+					</ul>
+					<div class="secondSection">
+						<p>ahochsouth@gmail.com<br><a href="https://www.linkedin.com/in/annie-hoch-south-04995114a/" target="_blank">LinkedIn</a> &#10072; <a href="img/Hoch-South_Resume.pdf" download="Hoch-South_Resume.pdf" target="_blank">Resume</a>
+		       		</div>
+				</div>
+			</nav>
+	    </div>
+
+	    <a href="http://anniehoch-south.com/"><img id="headerIcon" src="img/icon.png" alt="Annie Hoch-South black icon with cursive initials flowing to print font"></a>
+
+	    <div id="bodyContent">
+	    	<h1>13 Ways of Looking at a Blackbird</h1>
+			
+			<img src="img/scrollingGif.gif" alt="blackbird website animated image">
+
+			<a class="projectButton" href="https://dtc-wsuv.org/ahoch18/final477/" target="_blank">visit website</a>
+
+			<div class="text">
+				<div id="projectDetails">
+					<h2>Project Details</h2><br>
+					<p>Web Design | November 2018<br><br>
+
+					I've always been a fan of finding new ways to make things more visually interesting and engaging. This project is one of the first websites that I created with that specific intention. I wanted to see where I could push myself and create not just a website, but also a visual story.</p>
+				</div><br>
+
+				<div id="myRole">
+					<h2>My Role</h2><br>
+					<p>This project was the resulting final for my course, <a target="_blank" href="http://dtc-wsuv.org/wp/dtc477/about/">DTC 477: Advanced Multimedia Authoring.</a> This four-month-long course further developed my coding skills, including responsive design for mobile.</p><br>
+				</div>
+
+				<figure>
+					<img src="img/BlackbirdImg.JPG" alt="blackbird website code"><br>
+					<figcaption>Snapshot of website code</figcaption>
+				</figure>
+
+				<div id="projectSummary">
+					<h2>Project Summary</h2><br>
+					<p>The goal was to create an engaging website, using what I learned from my course. The animated scrolling elements were edited in Illustrator and placed using coded keyframes. In addition, the site takes user input and if done correctly, unlocks a short author's biography. The result is a beautiful, engaging website that has users returning to a truly unique experience.</p><br>
+				</div>
+
+				<div id="challenges">
+					<h2>Challenges</h2><br>
+					<p>This project used a Javascript library called <a target="_blank" href="https://prinzhorn.github.io/skrollr/">Skrollr by Prinzhorn</a> to achieve that paralax scrolling effect. Having never worked with a Javascript library before, it was a challenge to learn how libraries work and the specific nuances within this library.<br><br>
+
+					However, I was excited to imagine what something like Skrollr could bring to the table, and I wanted to step outside my comfort zone and try something completely new.<br><br>
+
+					In addition to working with a new library, I wanted to find a way to give the poem some replay value, just to make things a bit more visually interesting and add incentive to go back through the poem again.</p><br>
+				</div>
+
+				<div id="solutions">
+					<h2>Solutions</h2><br>
+					<p>When I began working on this paralax scrolling project, I found it helpful to research other websites that also used the same library. I learned that Skrollr works by mapping positions in the scroll height and assigning your CSS values to them. Essentially, if I wanted to make an image fade in, linger, then fade out, I would need three data points in my scroll height. For the fade in, it would need to start with 0 opacity, then assign a later data point to have 1 (or full) opacity. From here, I could have the value linger as long as I want, so long as I record the data point when the effect should begin the fade out. The last data point would be when I actually assign the 0 opacity again for it to fade out. In a sense, it works similar to <a target="_blank" href="https://helpdeskgeek.com/how-to/how-to-add-keyframes-in-adobe-premiere-pro/">keyframes</a> in Adobe Premiere or After Effects.</p>
+
+					<figure>
+						<img src="img/blackbirdstanzaone.JPG" alt="first stanza of blackbird website"><br>
+						<figcaption>First stanza of blackbird site</figcaption><br>
+					</figure>
+
+					<p>I wanted to add a secret at the end of the poem to entice users to want to go through the poem again. I decided to do this with a hidden author's biography. The poem starts out with missing blanks for each time "blackbird" appears in the stanzas. There are instructions on the splash page that tell the user to use the spacebar to enter "blackbird", thus revealing the true poem. If a single blank is left unfilled, the biography remains hidden and a prompt at the bottom allows users to scroll back to the top. If the site reloads, there is additional script for stanzas three and ten to randomize their leaves and flock values, to mix things up.</p><br>
+				</div>
+
+				<div id="results">
+					<h2>Results</h2><br>
+					<p>The end result takes what would have been a static poem on a page and brings it to life. We follow the blackbird through the story as it glides from stanza to stanza. This course both honors the author's original intentions, while reimagining poetry and digital storytelling.<br><br>
+
+					This project helped me improve my overall coding skills, while being able to express my own creativity.</p>	
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<h2>Annie Hoch-South</h2>
+			<p>ahochsouth@gmail.com &#10072; <a href="https://www.linkedin.com/in/annie-hoch-south-04995114a/" target="_blank">LinkedIn</a> &#10072; <a href="img/Hoch-South_Resume.pdf" download="Hoch-South_Resume.pdf" target="_blank">Resume</a></p>
+		</footer>
+
+	<script>
+
+		//toggle hamburger animation
+		$('#toggle').click(function() {
+		  	$(this).toggleClass('active');
+		   
+			$('#overlay').toggleClass('open');
+		  	});
+    
+	</script>
+
+	</body>
+
+</html>
