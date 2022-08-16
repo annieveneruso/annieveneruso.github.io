@@ -229,8 +229,8 @@ video{
 #headerIcon{
 	position: fixed;
 	width: 141px;
-	left: 5px;
-	top: 5px;
+	left: 15px;
+	top: 15px;
 	z-index: 1;
 }
 
@@ -374,6 +374,7 @@ footer p{
 	margin: 0 auto;
 	width: 50%;
 	padding: 20px;
+	max-width: 300px;
 }
 
 .text a{
